@@ -6,7 +6,7 @@ var Articles = require("../models/articles");
 var router = express.Router();
 
 router.get("/", function(req, res) {
-  res.sendFile(__dirname + "/../index.html");
+  res.sendFile(__dirname + "../index.html");
 })
 
 router.get("/api/saved", function(req, res) {

@@ -27,7 +27,7 @@ export default class Saved extends React.Component {
       return (
         <li key={index}>
           <a href={article.url} target="_blank">{article.title}</a>
-          <button onClick={this.props.onRemove} className="remove btn btn-info" data-id={article._id}>Remove</button>
+          <button onClick={this.props.onRemove} className="remove btn btn-success" data-id={article._id}>Remove</button>
         </li>
       )
     }, this)
